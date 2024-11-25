@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form action="results.html" method="GET">
+        <div>
+            First Name:
+            <input placeholder="First name" type="text" name="firstname" id="firstname">
+        </div>
+        <div>
+            Last Name:
+            <input placeholder="Last name" type="text" name="lastname" id="lastname">
+        </div>
+        <div>
+            Number of pets:
+            <input min="5" max="120" type="text" name="pets" id="pets">
+        </div>
+        <div>
+            <button type="reset"> Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
